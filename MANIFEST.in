@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jirlie_dashboard *.css
+recursive-include jirlie_dashboard *.csv
+recursive-include jirlie_dashboard *.html
+recursive-include jirlie_dashboard *.ico
+recursive-include jirlie_dashboard *.js
+recursive-include jirlie_dashboard *.json
+recursive-include jirlie_dashboard *.md
+recursive-include jirlie_dashboard *.png
+recursive-include jirlie_dashboard *.py
+recursive-include jirlie_dashboard *.svg
+recursive-include jirlie_dashboard *.txt
+recursive-exclude jirlie_dashboard *.pyc
