@@ -1,0 +1,58 @@
+{
+ "charts": [
+  {
+   "chart_name": "Profit and Loss",
+   "label": "Profit and Loss"
+  },
+  {
+   "chart_name": "Top Customers",
+   "label": "Top Customers"
+  },
+  {
+   "chart_name": "Top Suppliers",
+   "label": "Top Suppliers"
+  },
+  {
+   "chart_name": "Project Summary",
+   "label": "Project Summary"
+  }
+ ],
+ "content": "[{\"id\":\"swlVwn-65V\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Summary</span>\",\"col\":12}},{\"id\":\"QshpUdJl31\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Employees\",\"col\":4}},{\"id\":\"WUsrPojlf3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Customers\",\"col\":4}},{\"id\":\"3V0NLQ-V0Y\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Suppliers\",\"col\":4}},{\"id\":\"3Lv0gaWm7q\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Top Customers\",\"col\":6}},{\"id\":\"UJ027i3Byr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Top Suppliers\",\"col\":6}},{\"id\":\"q_XcEIJjoX\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Profit and Loss\",\"col\":6}},{\"id\":\"IoVE7SCYbt\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Project Summary\",\"col\":6}}]",
+ "creation": "2024-03-04 15:35:13.719014",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "statistic",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Summary",
+ "links": [],
+ "modified": "2024-03-15 17:48:32.738680",
+ "modified_by": "Administrator",
+ "module": "Jirlie Dashboard",
+ "name": "Summary",
+ "number_cards": [
+  {
+   "label": "Total Employees",
+   "number_card_name": "Total Employees"
+  },
+  {
+   "label": "Active Customers",
+   "number_card_name": "Active Customers"
+  },
+  {
+   "label": "Active Suppliers",
+   "number_card_name": "Active Suppliers"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 0.0,
+ "shortcuts": [],
+ "title": "Summary"
+}
