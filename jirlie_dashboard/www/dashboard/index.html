@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/jirlie_dashboard/css/normalize.css" />
+    <link rel="stylesheet" href="/assets/jirlie_dashboard/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/jirlie_dashboard/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/jirlie_dashboard/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Parisienne&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Questrial&amp;family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="blur-overlay"></div>
+    <!-- Start Navbar -->
+    <div class="navbar">
+      <div class="container d-flex align-items-center">
+        <div class="logo d-flex align-items-center">
+          <div class="pic">
+            <img class="mw-100" src="./img/jirlie.png" alt="" />
+          </div>
+          <!-- <div class="anim-text" style="margin-left: 20px">Jirlie Cloud</div> -->
+        </div>
+        <div class="profile">
+          <ul class="d-flex align-items-center gap-3 mb-0">
+            <!-- <li>
+              <div class="input-group">
+                <div class="form-outline" data-mdb-input-init>
+                  <input
+                    style="background-color: #eee"
+                    id="search-focus"
+                    type="search"
+                    id="form1"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+            </li> -->
+            <!-- <li class="nav-item dropdown border-start ps-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                A
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Navbar -->
+    <!-- Start Dashboard -->
+    <div class="dashboard mt-5">
+      <div class="container">
+        <div class="all-icons">
+          <div class="all d-flex gap-2 ">
+            {% for workspace in workspace %}
+            <div class="icons d-flex align-items-center flex-column">
+              <a
+                href="/app/{{workspace.name}}"
+                class="d-flex align-items-center justify-content-center flex-column"
+              >
+                <img src="{{workspace.custom_logo_link}}">
+              </a>
+              <!-- <span>Home</span> -->
+            </div>
+            {% endfor %}
+            
+              <!-- <span>ERP Next Integrations</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Dashboard -->
+    <!-- Start List -->
+    <div class="list">
+      <div class="close">
+        <i class="fa-solid fa-x"></i>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 mb-4 d-flex justify-content-center">
+            <div class="icons d-flex align-items-center flex-column">
+              <a
+                href="#"
+                class="d-flex align-items-center justify-content-center flex-column"
+              >
+                <i class="fa-solid fa-list"></i>
+              </a>
+              <!-- <span>ERP Next Integrations</span> -->
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4 d-flex justify-content-center">
+            <div class="icons d-flex align-items-center flex-column">
+              <a
+                href="#"
+                class="d-flex align-items-center justify-content-center flex-column"
+              >
+                <i class="fa-solid fa-list"></i>
+              </a>
+              <!-- <span>ERP Next Integrations</span> -->
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4 d-flex justify-content-center">
+            <div class="icons d-flex align-items-center flex-column">
+              <a
+                href="#"
+                class="d-flex align-items-center justify-content-center flex-column"
+              >
+                <i class="fa-solid fa-list"></i>
+              </a>
+              <!-- <span>ERP Next Integrations</span> -->
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4 d-flex justify-content-center">
+            <div class="icons d-flex align-items-center flex-column">
+              <a
+                href="#"
+                class="d-flex align-items-center justify-content-center flex-column"
+              >
+                <i class="fa-solid fa-list"></i>
+              </a>
+              <!-- <span>ERP Next Integrations</span> -->
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4 d-flex justify-content-center">
+            <div class="icons d-flex align-items-center flex-column">
+              <a
+                href="#"
+                class="d-flex align-items-center justify-content-center flex-column"
+              >
+                <i class="fa-solid fa-list"></i>
+              </a>
+              <!-- <span>ERP Next Integrations</span> -->
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4 d-flex justify-content-center">
+            <div class="icons d-flex align-items-center flex-column">
+              <a
+                href="#"
+                class="d-flex align-items-center justify-content-center flex-column"
+              >
+                <i class="fa-solid fa-list"></i>
+              </a>
+              <!-- <span>ERP Next Integrations</span> -->
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4 d-flex justify-content-center">
+            <div class="icons d-flex align-items-center flex-column">
+              <a
+                href="#"
+                class="d-flex align-items-center justify-content-center flex-column"
+              >
+                <i class="fa-solid fa-list"></i>
+              </a>
+              <!-- <span>ERP Next Integrations</span> -->
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4 d-flex justify-content-center">
+            <div class="icons d-flex align-items-center flex-column">
+              <a
+                href="#"
+                class="d-flex align-items-center justify-content-center flex-column"
+              >
+                <i class="fa-solid fa-list"></i>
+              </a>
+              <!-- <span>ERP Next Integrations</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End List -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/assets/jirlie_dashboard/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/jirlie_dashboard/js/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

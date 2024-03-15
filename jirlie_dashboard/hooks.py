@@ -11,7 +11,7 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/jirlie_dashboard/css/jirlie_dashboard.css"
+app_include_css = "/assets/jirlie_dashboard/css/jirlie_dashboard.css"
 # app_include_js = "/assets/jirlie_dashboard/js/jirlie_dashboard.js"
 
 # include js, css files in header of web template
@@ -38,7 +38,7 @@ app_license = "MIT"
 # ----------
 
 # application home page (will override Website Settings)
-# home_page = "login"
+# home_page = "dashboard"
 
 # website user home page (by Role)
 # role_home_page = {
